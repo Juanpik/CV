@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Cruz Fimbres | Lingüista Computacional & Desarrollador</title>
+    <meta name="description" content="Portafolio de Juan Pablo Cruz Fimbres. Lingüista computacional, desarrollador de software lingüístico e investigador especializado en lenguas indígenas.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">J.P. <span>Cruz Fimbres</span></a>
+            <nav class="nav-links">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos Tech</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#servicios">Servicios</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Cambiar modo oscuro/claro">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero fade-in">
+        <div class="hero-content">
+            <p class="greeting">Hola, soy</p>
+            <h1 class="name">Juan Pablo Cruz</h1>
+            <h2 class="title">Lingüista Computacional & Desarrollador de Herramientas Digitales</h2>
+            <p class="description">
+                Transformo la investigación lingüística en tecnología aplicada. Especializado en el desarrollo de software para la documentación, análisis y revitalización de lenguas indígenas americanas.
+            </p>
+            <div class="cta-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Proyectos Tech</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="section fade-in">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Soy un profesional que transita entre las humanidades y la tecnología. Con un Doctorado en Humanidades y formación en Ingeniería en Administración Computacional, mi objetivo es cerrar la brecha entre el conocimiento académico tradicional y el desarrollo tecnológico moderno.</p>
+                    <p>Actualmente me desempeño como Docente Investigador y coordinador de proyectos interdisciplinarios, donde fundo iniciativas como <strong>Bímori</strong>, enfocada en crear software para preservar lenguas originarias.</p>
+                </div>
+                <div class="skills-container">
+                    <h3>Áreas de Especialidad</h3>
+                    <div class="skills-tags">
+                        <span class="tag"><i class="fas fa-code"></i> Lingüística Computacional</span>
+                        <span class="tag"><i class="fas fa-mobile-alt"></i> Desarrollo de Apps y Web</span>
+                        <span class="tag"><i class="fas fa-database"></i> Análisis de Corpus (FLEX, ELAN)</span>
+                        <span class="tag"><i class="fas fa-language"></i> Lenguas Yutoaztecas</span>
+                        <span class="tag"><i class="fas fa-chalkboard-teacher"></i> Docencia Universitaria</span>
+                        <span class="tag"><i class="fas fa-project-diagram"></i> Modelos Lógicos del Lenguaje</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Tecnológicos -->
+    <section id="proyectos" class="section bg-alt fade-in">
+        <div class="container">
+            <h2 class="section-title">Desarrollo de Software y Proyectos Tech</h2>
+            <div class="grid-cards">
+                <!-- Proyecto 1 -->
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Rarámuri be'neka</h3>
+                    <p class="date">En desarrollo (2026)</p>
+                    <p>Aplicación web interactiva para el aprendizaje de la lengua rarámuri, desarrollada en colaboración con Cali Rosákame.</p>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Taracahita LexMatrix</h3>
+                    <p class="date">En desarrollo (2025)</p>
+                    <p>Herramienta computacional (analizador de matrices de cognados) para identificar conexiones genealógicas y calcular distancias léxicas entre lenguas yutoaztecas del norte.</p>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fab fa-android"></i></div>
+                    <h3>Rarámuri Ra'icha</h3>
+                    <p class="date">2023</p>
+                    <p>Diccionario virtual interactivo enfocado en verbos de moción de la lengua rarámuri. Aplicación nativa para dispositivos Android.</p>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-volume-up"></i></div>
+                    <h3>Pepenimia Warijó</h3>
+                    <p class="date">2022</p>
+                    <p>Diccionario audiovisual de la lengua guarijío. Una aplicación móvil para Android diseñada para la preservación lingüística.</p>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-book"></i></div>
+                    <h3>Diccionario Yaqui</h3>
+                    <p class="date">2020</p>
+                    <p>Aplicación móvil de consulta léxica para la lengua yaqui, optimizada para Android y disponible en Play Store.</p>
+                </div>
+                <!-- Proyecto 6 -->
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Plataforma Bímori</h3>
+                    <p class="date">Fundador</p>
+                    <p>Desarrollo integral de software y herramientas digitales enfocadas exclusivamente en la enseñanza y preservación de lenguas indígenas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia y Academia -->
+    <section id="experiencia" class="section fade-in">
+        <div class="container">
+            <h2 class="section-title">Trayectoria Profesional y Académica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Docente Investigador</h3>
+                        <span class="company">Escuela de Antropología e Historia del Norte de México (EAHNM) | 2022 - Presente</span>
+                        <p>Impartición de materias como Lingüística Computacional, Estructuras Lingüísticas y Modelos Lógicos del Lenguaje. Impulsor de proyectos interdisciplinarios tecnológicos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Coordinador & Miembro Activo</h3>
+                        <span class="company">SEMLE-Chihuahua & Red HLC | 2024 - Presente</span>
+                        <p>Líder del Seminario de Estudios sobre Lenguas (Colmex) y representante de nodo para la Red de Humanidades y Lingüística Computacional para impulsar herramientas aplicadas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Doctorado en Humanidades</h3>
+                        <span class="company">Universidad de Sonora | 2018 - 2022</span>
+                        <p>Investigación profunda en la estructura de la información en guarijío de Chihuahua, uniendo la teoría sintáctica con análisis de corpus.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Consultor y Educador Independiente</h3>
+                        <span class="company">Superprof & RedaText | Emprendimiento continuo</span>
+                        <p>Asesorías en lingüística computacional, morfosintaxis y gestión de la plataforma RedaText (agencia de corrección y edición de estilo).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section bg-alt fade-in">
+        <div class="container">
+            <h2 class="section-title">Servicios y Consultoría</h2>
+            <div class="grid-cards">
+                <div class="card service-card">
+                    <i class="fas fa-code-branch fa-2x mb-3 text-primary"></i>
+                    <h3>Desarrollo de Software Lingüístico</h3>
+                    <p>Creación de aplicaciones web y móviles (diccionarios interactivos, plataformas de aprendizaje) adaptadas a necesidades etnolingüísticas específicas.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fas fa-database fa-2x mb-3 text-primary"></i>
+                    <h3>Análisis Computacional de Corpus</h3>
+                    <p>Manejo de equipo y software especializado (FLEX, ELAN) para la documentación lingüística, metadatos y cálculo de distancias léxicas.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fas fa-pen-nib fa-2x mb-3 text-primary"></i>
+                    <h3>Edición y Arquitectura de Textos</h3>
+                    <p>A través de RedaText: servicios profesionales de corrección de estilo, redacción académica y diseño editorial de revistas y publicaciones.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fas fa-chalkboard-teacher fa-2x mb-3 text-primary"></i>
+                    <h3>Capacitación y Talleres</h3>
+                    <p>Cursos a medida sobre lingüística computacional, herramientas digitales para humanidades y métodos de investigación formal y de campo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section fade-in">
+        <div class="container text-center">
+            <h2 class="section-title">¿Listo para colaborar?</h2>
+            <p class="mb-4">Si tienes un proyecto tecnológico-lingüístico en mente, necesitas consultoría especializada o buscas colaboración académica, hablemos.</p>
+            <div class="contact-info">
+                <a href="mailto:juanpik@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> juanpik@gmail.com</a>
+                <a href="tel:+526622010460" class="btn btn-secondary"><i class="fas fa-phone"></i> +52 662 201 0460</a>
+            </div>
+            <p class="mt-4"><i class="fas fa-map-marker-alt"></i> Base: Chihuahua / Sonora, México</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Juan Pablo Cruz Fimbres. Portafolio diseñado para la intersección de Humanidades y Tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
