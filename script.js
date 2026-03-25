@@ -59,21 +59,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     accordionHeaders.forEach(header => {
         header.addEventListener('click', function() {
-            // Alternar estado activo en el botón
             this.classList.toggle('active');
             
-            // Obtener el div de contenido justo después del botón
             const content = this.nextElementSibling;
             
             if (content.style.maxHeight) {
-                // Si está abierto, cerrarlo
                 content.style.maxHeight = null;
             } else {
-                // Si está cerrado, abrirlo dinámicamente según el contenido
                 content.style.maxHeight = content.scrollHeight + "px";
             }
             
-            // Opcional: Cerrar los demás acordeones al abrir uno (comenta esto si prefieres que varios puedan estar abiertos a la vez)
             accordionHeaders.forEach(otherHeader => {
                 if (otherHeader !== this && otherHeader.classList.contains('active')) {
                     otherHeader.classList.remove('active');
