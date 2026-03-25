@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Cruz Fimbres | Lingüista Computacional & Desarrollador</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">J.P. <span>Cruz Fimbres</span></a>
+            <nav class="nav-links">
+                <a href="#sobre-mi">Perfil</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#academico">Producción Académica</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Modo oscuro"><i class="fas fa-moon"></i></button>
+                <button class="menu-toggle" aria-label="Menú"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero fade-in">
+        <div class="hero-content">
+            <p class="greeting">Hola, soy</p>
+            <h1 class="name">Juan Pablo Cruz</h1>
+            <h2 class="title">Lingüista Computacional & Desarrollador</h2>
+            <p class="description">
+                Transformo la investigación lingüística en tecnología aplicada. Especializado en el desarrollo de software para la documentación, análisis y revitalización de lenguas indígenas americanas.
+            </p>
+            <div class="cta-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#academico" class="btn btn-secondary">Trayectoria Académica</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formación y Perfil -->
+    <section id="sobre-mi" class="section fade-in">
+        <div class="container">
+            <h2 class="section-title">Formación Académica y Perfil</h2>
+            <div class="about-grid">
+                
+                <!-- Timeline de Formación -->
+                <div class="timeline education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Doctorado en Humanidades</h3>
+                            <span class="company">Universidad de Sonora | 2018 - 2022</span>
+                            <p><em>Tesis:</em> Estructura de la Información en guarijío de Chihuahua.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Maestría en Lingüística</h3>
+                            <span class="company">Universidad de Sonora | 2016 - 2018</span>
+                            <p>Titulado: 01 de noviembre de 2018. <br><em>Tesis:</em> Seguimiento de referencia en guarijío de Chihuahua.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Ingeniería en Admón. Computacional (Trunca)</h3>
+                            <span class="company">Universidad Tec Milenio | 2016 - 2017</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Licenciatura en Lingüística</h3>
+                            <span class="company">Universidad de Sonora | 2011 - 2015</span>
+                            <p>Titulado: 01 de julio de 2016. <br><em>Tesis:</em> Frecuencia relativa de nombres y verbos en pima bajo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Idiomas y Skills -->
+                <div class="skills-container">
+                    <h3 class="mb-3">Idiomas</h3>
+                    <div class="language-bars mb-4">
+                        <div class="lang-item"><span>Inglés (Nivel 7/7 - Unison 2017)</span> <div class="bar"><div class="fill" style="width: 100%;"></div></div></div>
+                        <div class="lang-item"><span>Ruso (Nivel 5/5 - Unison 2011)</span> <div class="bar"><div class="fill" style="width: 100%;"></div></div></div>
+                        <div class="lang-item"><span>Portugués (Nivel 2/4 - Unison 2011)</span> <div class="bar"><div class="fill" style="width: 50%;"></div></div></div>
+                    </div>
+
+                    <h3 class="mb-3">Grupos de Trabajo e Investigación</h3>
+                    <ul class="styled-list">
+                        <li><strong>(2025 - Presente)</strong> Miembro Activo (Nodo Chihuahua) - Red de Humanidades y Lingüística Computacional (Red HLC). Representante EAHNM.</li>
+                        <li><strong>(2024 - Presente)</strong> Coordinador Equipo SEMLE-Chihuahua, Seminario de Estudios sobre Lenguas, El Colegio de México. Colaborador "Cali Rosákame".</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Tech y Emprendimiento -->
+    <section id="proyectos" class="section bg-alt fade-in">
+        <div class="container">
+            <h2 class="section-title">Desarrollo de Software y Emprendimiento</h2>
+            
+            <h3 class="mb-4">Proyectos Tecnológicos</h3>
+            <div class="grid-cards mb-4">
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Rarámuri be'neka</h3>
+                    <p class="date">2026</p>
+                    <p>Aplicación web interactiva para el aprendizaje de la lengua, desarrollada en colaboración con Cali Rosákame.</p>
+                </div>
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Taracahita LexMatrix</h3>
+                    <p class="date">2025</p>
+                    <p>Herramienta computacional (analizador de matrices de cognados) para identificar conexiones genealógicas y calcular distancias léxicas entre lenguas yutoaztecas del norte.</p>
+                </div>
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fab fa-android"></i></div>
+                    <h3>Rarámuri Ra'icha</h3>
+                    <p class="date">2023</p>
+                    <p>Diccionario virtual de verbos de moción de la lengua rarámuri (Aplicación Android).</p>
+                </div>
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-volume-up"></i></div>
+                    <h3>Pepenimia Warijó</h3>
+                    <p class="date">2022</p>
+                    <p>Diccionario audiovisual de la lengua guarijío (Aplicación Android).</p>
+                </div>
+                <div class="card project-card">
+                    <div class="card-icon"><i class="fas fa-book"></i></div>
+                    <h3>Diccionario Yaqui</h3>
+                    <p class="date">2020</p>
+                    <p>Aplicación móvil de consulta léxica para Android disponible en Play Store.</p>
+                </div>
+            </div>
+
+            <h3 class="mb-4 mt-4">Emprendimiento y Gestión</h3>
+            <div class="grid-cards">
+                <div class="card service-card">
+                    <h4><i class="fas fa-pen-nib text-primary"></i> Fundador | RedaText</h4>
+                    <p>Plataforma y agencia de servicios enfocada en la corrección de estilo, edición y redacción de textos.</p>
+                </div>
+                <div class="card service-card">
+                    <h4><i class="fas fa-store text-primary"></i> Fundador | Dumplin' Bros!</h4>
+                    <p>Gestión administrativa, cálculo de costos/márgenes y manejo integral de marketing digital y redes sociales.</p>
+                </div>
+                <div class="card service-card">
+                    <h4><i class="fas fa-code text-primary"></i> Fundador | Bímori</h4>
+                    <p>Desarrollo de software y herramientas digitales enfocadas en la enseñanza y preservación de lenguas indígenas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section id="experiencia" class="section fade-in">
+        <div class="container">
+            <h2 class="section-title">Experiencia Laboral</h2>
+            
+            <div class="about-grid">
+                <div>
+                    <h3 class="mb-4">Experiencia Docente</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Docente Investigador</h3>
+                                <span class="company">Escuela de Antropología e Historia del Norte de México (EAHNM) | 2022 - Presente</span>
+                                <p>Asignaturas impartidas: Estructuras Lingüísticas, Lingüística Computacional, Diseño y Técnicas de Investigación II, Proyecto de Investigación Formativa: Lenguaje e Interculturalidad, Biolingüística, y Modelos Lógicos del Lenguaje.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Instructor</h3>
+                                <span class="company">Universidad de Sonora | 2020</span>
+                                <p>Curso: Enfoques metodológicos en la investigación lingüística (2020-2). Titular: Dr. Manuel Peregrina.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Docente Independiente</h3>
+                                <span class="company">Superprof | 2024 - Presente</span>
+                                <p>Asesorías y cursos de Lingüística computacional, modelos lógicos del lenguaje y morfosintaxis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="mb-4">Otras Experiencias Laborales</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Diseñador gráfico / Community manager</h3>
+                                <span class="company">CITEL | 2021</span>
+                                <p>Diseño de publicidad y mantenimiento de redes sociales.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Asistente de terapia del lenguaje</h3>
+                                <span class="company">CREE | 2017</span>
+                                <p>Aplicación de exámenes, asistencia con niños, y elaboración de material didáctico para adultos con trastornos del lenguaje.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Agente de ventas bilingüe</h3>
+                                <span class="company">Teleperformance | 2014 - 2016</span>
+                                <p>Campaña COMCAST.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Producción Académica (Acordeones) -->
+    <section id="academico" class="section bg-alt fade-in">
+        <div class="container">
+            <h2 class="section-title">Producción Académica y Divulgación</h2>
+            <p class="mb-4">Haz clic en cada sección para expandir la información detallada sobre publicaciones, conferencias y formación continua.</p>
+
+            <div class="accordion">
+                
+                <!-- Publicaciones -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Publicaciones Científicas <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <ul class="academic-list">
+                            <li><span class="badge">2026</span> Hernández Cruz, A., Cruz Fimbres, J. P., et al. <em>Un oasis en medio de la ciudad: los retos de la primaria indígena Calí Rosákame</em>. En El libro de las contradicciones. SEMLE. (En prensa).</li>
+                            <li><span class="badge">2023</span> Cruz, J & Peregrina, M. <em>Continuidad referencial en guarijío de Chihuahua</em>. Cuadernos de Lingüística. Colegio de México.</li>
+                            <li><span class="badge">2022</span> Cruz, J. <em>Presentación</em>. En Expedicionario. Revista de estudios en Antropología, Año 2, Núm. 4, p. 6. INAH.</li>
+                            <li><span class="badge">2015</span> Cruz, J. P. <em>Origen del lenguaje: un recuento evolutivo</em>. Revista estudiantil [pro:krastina:re], Núm. I. Lic. en Lingüística, Unison.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Ponencias -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Ponencias y Participaciones en Eventos <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <ul class="academic-list">
+                            <li><span class="badge">2025</span> “Innovación tecnológica y diversidad lingüística: un reto para la inclusión”. II Foro PIAI. Sisoguichi, Chih.</li>
+                            <li><span class="badge">2025</span> La labor docente frente a la precarización: el caso de lingüística antropológica en la EAHNM. VII Congreso INAH, Chihuahua.</li>
+                            <li><span class="badge">2024</span> Métodos computacionales para la comparación léxica de lenguas taracahítas. Coloquio Unison.</li>
+                            <li><span class="badge">2024</span> Clase magistral: “SEMLE Chihuahua... primaria Cali Resácame”. EAHNM.</li>
+                            <li><span class="badge">2024</span> Presentación de proyecto: “¿Es posible la revitalización?: Oasis...”. EAHNM.</li>
+                            <li><span class="badge">2023</span> Pepenimia warijó. Una app audiovisual (coautoría Sergio Moreno). AMLA 2023, Chihuahua.</li>
+                            <li><span class="badge">2021</span> Tópico y foco en guarijío de Chihuahua. Coloquio Unison.</li>
+                            <li><span class="badge">2020</span> La interrelación en guarijío de posposiciones, marcas de caso y orden de palabra. Unison.</li>
+                            <li><span class="badge">2019</span> Continuidad del tópico en guarijío de Chihuahua. V Congreso Asociación Centroamericana, Costa Rica.</li>
+                            <li><span class="badge">2019</span> Estrategias de focalización en guarijío de Chihuahua. Unison.</li>
+                            <li><span class="badge">2018</span> Seguimiento de referencia en guarijío de Chihuahua. ENAH, CDMX.</li>
+                            <li><span class="badge">2017</span> Mecanismos de referencia en guarijío de Chihuahua. Unison.</li>
+                            <li><span class="badge">2017</span> Densidad referencial en pima bajo. UAQ, Querétaro.</li>
+                            <li><span class="badge">2017</span> Lenguaje y lógica en “Alicia...”. Décimo Tercer Foro, Unison.</li>
+                            <li><span class="badge">2015</span> Origen y usos del verbo chingar. Décimo Segundo Foro, Unison.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Talleres Impartidos -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Talleres y Cursos Impartidos <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <ul class="academic-list">
+                            <li><span class="badge">2025</span> Curso: El Lenguaje: biología, origen y evolución. EAHNM (Marzo).</li>
+                            <li><span class="badge">2025</span> Instructor: 1er Workshop Introducción a Lingüística Computacional y Datos. IIMAS-UNAM, UABC y L52+ (Abril, 26 hrs).</li>
+                            <li><span class="badge">2024</span> Taller: Las palabras como ventanas: conozcamos las lenguas indígenas jugando. Feria del Libro Chihuahua (Noviembre).</li>
+                            <li><span class="badge">2023</span> Métodos y herramientas computacionales para el análisis de corpus. Maestría en Lingüística, Unison (15 hrs).</li>
+                            <li><span class="badge">2020</span> Documentación lingüística en FLEX y ELAN. Licenciatura en Lingüística, Unison.</li>
+                            <li><span class="badge">2017</span> Manejo de equipo especializado para la documentación lingüística. Proyecto del noroeste de México, Unison (Junio-Agosto).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Comités y Edición -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Edición, Evaluación y Comités <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <ul class="academic-list">
+                            <li><span class="badge">2025</span> Sinodal Suplente: Tesis Lic. Intérpretes, glotofagia y dinámicas lingüísticas. EAHNM.</li>
+                            <li><span class="badge">2024</span> Sinodal Titular: Tesis Lic. El proceso de resurgimiento de la nación n’de. EAHNM.</li>
+                            <li><span class="badge">2024</span> Comentarista de Mesa 2: XI Encuentro PIF. EAHNM.</li>
+                            <li><span class="badge">2022</span> Coordinador de Edición: Expedicionario. Revista de estudios en Antropología, Núm. 4.</li>
+                            <li><span class="badge">2015</span> Diseño Editorial: Revista académica [pro:krastina:re] Números I y II. Unison.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Cursos Recibidos -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Cursos y Talleres Recibidos <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <ul class="academic-list tall-list">
+                            <li><span class="badge">2025</span> Intro. a la Antropología Lingüística (Dr. Moctezuma, EAHNM, 20 hrs).</li>
+                            <li><span class="badge">2025</span> Intro. a la tipología lingüística (EAHNM, 25 hrs).</li>
+                            <li><span class="badge">2024</span> Más allá del léxico. Desarrollo lingüístico en años escolares (EAHNM, 20 hrs).</li>
+                            <li><span class="badge">2024</span> Intro. a la cultura y lengua ralámuli (EAHNM, 20 hrs).</li>
+                            <li><span class="badge">2024</span> Inclusión en la Educación Superior (EAHNM, 10 hrs).</li>
+                            <li><span class="badge">2023</span> Diccionario, artefacto cultural (Dra. Palacios, EAHNM, 20 hrs).</li>
+                            <li><span class="badge">2023</span> Ralámuli ra'icháala benébo (Lic. Morales, EAHNM, 20 hrs).</li>
+                            <li><span class="badge">2022</span> Métodos y técnicas en campo. Etnografía de la comunicación (EAHNM, 4 hrs).</li>
+                            <li><span class="badge">2022</span> La categorización de olores (EAHNM).</li>
+                            <li><span class="badge">2022</span> Arte verbal en lenguas de América (Unison, 20 hrs).</li>
+                            <li><span class="badge">2021</span> El análisis computacional de corpus (Dr. Wichmann, Unison, 20 hrs).</li>
+                            <li><span class="badge">2020</span> Estructura de la información en lenguas indígenas americanas (Unison, 20 hrs).</li>
+                            <li><span class="badge">2020</span> Taller de diseño de materiales didácticos (Unison, 10 hrs).</li>
+                            <li><span class="badge">2020</span> Trabajo de campo con enfoque en tiempo y aspecto (Unison, 8 hrs).</li>
+                            <li><span class="badge">2019</span> Cursos Unison: Uso de herramientas computacionales (12 hrs), Lenguas amazónicas (20 hrs), Contacto y revitalización (20 hrs), Náhuatl/pipil (20 hrs), Etnografía del habla (20 hrs).</li>
+                            <li><span class="badge">2018</span> Cursos Unison: Fonología zapoteca (20 hrs), Modality and Negation (20 hrs), Tradición oral (20 hrs), Prosodia (10 hrs), Mapas conceptuales (10 hrs).</li>
+                            <li><span class="badge">2017</span> Cursos Unison: Fonología (20 hrs), Evolución del lenguaje (20 hrs), Transitividad (20 hrs), Análisis del discurso (20 hrs), Gramaticalización (20 hrs), Reference in discourse (20 hrs), Aspectos movimal (20 hrs), Intro gramaticalización (20 hrs).</li>
+                            <li><span class="badge">2014</span> Lenguas en contacto (Unison, 20 hrs).</li>
+                            <li><span class="badge">2014</span> Diplomado: Terapia del lenguaje (Inst. Capacitación Fisioterapia, 150 hrs).</li>
+                            <li><span class="badge">2013</span> Linguistic complexity (20 hrs), Etnografía de comunicación (20 hrs), Lengua de Señas Mexicanas (40 hrs).</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Datos Personales -->
+    <section id="contacto" class="section fade-in">
+        <div class="container text-center">
+            <h2 class="section-title">Contacto y Ficha Técnica</h2>
+            <p class="mb-4">Si tienes un proyecto en mente, buscas consultoría o requieres mi CV en formato documento, no dudes en contactarme.</p>
+            
+            <div class="contact-info mb-4">
+                <a href="mailto:juanpik@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> juanpik@gmail.com</a>
+                <a href="tel:+526622010460" class="btn btn-secondary"><i class="fas fa-phone"></i> +52 662 201 0460</a>
+            </div>
+            
+            <!-- Datos oficiales solicitados -->
+            <div class="personal-data-card text-left mt-4">
+                <h3 class="mb-3 text-center">Datos Personales</h3>
+                <div class="data-grid">
+                    <p><strong>Nacimiento:</strong> 29 de agosto de 1992 (Hermosillo, Sonora)</p>
+                    <p><strong>Edad:</strong> 29 años</p> <!-- Literal del CV -->
+                    <p><strong>CURP:</strong> CUFJ920829HSRRMN07</p>
+                    <p><strong>RFC:</strong> CUFJ920829KS7</p>
+                    <p><strong>Domicilio:</strong> Calle 54a #1217, Col. Cuarteles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Juan Pablo Cruz Fimbres. Portafolio CV diseñado para la intersección de Humanidades y Tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
